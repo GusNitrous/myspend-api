@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "author": "GusNitrous",
   "license": "MIT",
-  "main": "my-spend.js",
+  "main": "myspend.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=develop nodemon my-spend.js"
+    "start": "cross-env NODE_ENV=develop nodemon myspend.js"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -20,6 +20,7 @@
     "mongoose": "^5.0.6"
   },
   "devDependencies": {
-    "cross-env": "^5.1.5"
+    "cross-env": "^5.1.5",
+    "nodemon": "^1.17.4"
   }
 }
