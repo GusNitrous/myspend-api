@@ -1,0 +1,26 @@
+{
+  "name": "myspend-api",
+  "version": "0.1.0",
+  "author": "GusNitrous",
+  "license": "MIT",
+  "main": "myspend.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=develop nodemon myspend.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bunyan": "^1.8.12",
+    "connect-mongo": "^2.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-mongoose-store": "^1.0.7",
+    "express-session": "^1.15.6",
+    "moment": "^2.22.0",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.5",
+    "nodemon": "^1.17.4"
+  }
+}
