@@ -1,4 +1,4 @@
-const {PRODACTION_MODE} = require('./app/constants/Environment');
+const {PRODUCTION_MODE} = require('./app/constants/Environment');
 const mongoose = require('./DBConnect');
 const bodyParser = require('body-parser');
 const session = require('express-session');
@@ -15,7 +15,7 @@ const config = require('./config');
 const routes = require('./app/routes');
 
 const corsOptions = {
-    origin: PRODACTION_MODE ? config.cors.origin : 'http://localhost:3000',
+    origin: PRODUCTION_MODE ? config.cors.origin : 'http://localhost:3000',
     credentials: true
 };
 
